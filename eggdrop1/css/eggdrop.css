@@ -229,6 +229,16 @@ body {
     top: 80px;
     left: 900px;
 }
+.img2 {
+    animation: rotate_image 6s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .btn1 {
     border: 1px solid black;
     border-radius: 25px;
