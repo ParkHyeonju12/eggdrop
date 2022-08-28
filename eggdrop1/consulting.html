@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EGGDROP</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/consulting.css" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <div class="header-wrap">
+        <div>
+            <div class="site-header">
+                <h1 class="h1">
+                    <a href="eggdrop.html">EGGDROP</a>
+                </h1>
+                <div class="navi">
+                    <div class="navi-div">
+                        <ul class="navi-ul">
+                            <li><a href="menu.html">MENU</a></li>
+                            <li><a href="store.html">STORE</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="ask.html">가맹문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub-wrap">
+                        <div class="sub sub1">
+                            <ul>
+                                <li><a href="menu.html">NEW</a></li>
+                                <li><a href="menu.html">EGGDROP'S CHOICE</a></li>
+                                <li><a href="menu.html">SANDWICH</a></li>
+                                <li><a href="menu.html">SIDE</a></li>
+                                <li><a href="menu.html">COFFEE</a></li>
+                                <li><a href="menu.html">DRINK</a></li>
+                            </ul>
+                        </div>
+                        <div class="sub sub2">
+                            <ul>
+                                <li><a href="about.html">BRAND</a></li>
+                                <li><a href="about.html">NOTICE</a></li>
+                                <li><a href="about.html">HISTORY</a></li>
+                            </ul>
+                        </div>
+                        <div class="sub sub3">
+                            <ul>
+                                <li><a href="contact.html">FAQ</a></li>
+                                <li><a href="contact.html">고객문의</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/header.js"></script>
+    <div class="page">
+        <header class="page-header">
+            <h2>개설 상담 신청</h2>
+            <p>
+                개설상담을 신청해 주시면 희망하시는 지역의 상권분석과<br>
+                점포추천 등 1:1 창업 컨설팅을 무료로 받아 보실수 있습니다.
+            </p>
+        </header>
+        <nav class="page-navi">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>WHY EGGDROP</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>추천점포</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="consulting.html">
+                        <span>상담신청</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>개설안내</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div>
+                <h3>개설 상담 신청</h3>
+                <form id="frm" name="frm" method="post" class="form" action="#">
+                    <fieldset>
+                        <h4 class="title">
+                            기본정보
+                        </h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>이름</th>
+                                    <td colspan="3">
+                                        <div>
+                                            <input type="text" class="name" name="name" placeholder="이름을 입력하세요.">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>연락처</th>
+                                    <td colspan="3">
+                                        <div>
+                                            <input type="text" class="phone" name="phone" placeholder="전화번호를 입력하세요.">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>이메일</th>
+                                    <td colspan="3">
+                                        <div>
+                                            <input type="text" class="email" name="email" placeholder="이메일을 입력하세요.">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>직업</th>
+                                    <td>
+                                        <div>
+                                            <input name="job" class="job" type="text" placeholder="직업을 입력하세요.">
+                                        </div>
+                                    </td>
+                                    <th class="cell">연령대</th>
+                                    <td>
+                                        <div>
+                                            <select name="age" class="age">
+                                                <option value="20대">20대</option>
+                                                <option value="20대">30대</option>
+                                                <option value="20대">40대</option>
+                                                <option value="20대">50대</option>
+                                                <option value="20대">60대 이상</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <h4 class="title">개설 관련 정보</h4>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>점포유무</th>
+                                    <td>
+                                        <div>
+                                            <label>
+                                                <input class="shop" type="radio" name="store" value="있음" checked>
+                                                <span></span>
+                                                <span>있음</span>
+                                            </label>
+                                            <label>
+                                                <input class="shop" type="radio" name="store" value="없음">
+                                                <span></span>
+                                                <span>없음 (본사 점포 제안)</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>외식업종 운영 경험(브랜드)</th>
+                                    <td>
+                                        <div>
+                                            <label>
+                                                <input class="shop" type="radio" name="experience" value="있음" checked>
+                                                <span></span>
+                                                <span>있음</span>
+                                            </label>
+                                            <label>
+                                                <input class="shop" type="radio" name="experience" value="없음">
+                                                <span></span>
+                                                <span>없음 (본사 점포 제안)</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>투자금액</th>
+                                    <td>
+                                        <div>
+                                            <label>
+                                                <input class="investment" type="radio" name="amount" value="1억5천-2억"
+                                                    checked>
+                                                <span></span>
+                                                <span>1억5천-2억</span>
+                                            </label>
+                                            <label>
+                                                <input class="investment" type="radio" name="amount" value="2억-2억5천">
+                                                <span></span>
+                                                <span>2억-2억5천</span>
+                                            </label>
+                                            <label>
+                                                <input class="investment" type="radio" name="amount" value="2억5천이상">
+                                                <span></span>
+                                                <span>2억5천이상</span>
+                                            </label>
+                                            <label>
+                                                <input class="investment" type="radio" name="amount" value="특수상권">
+                                                <span></span>
+                                                <span>특수상권</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>에그드랍 유입경로</th>
+                                    <td>
+                                        <div>
+                                            <label>
+                                                <input class="inflow" type="radio" name="con_path" value="매장방문" checked>
+                                                <span></span>
+                                                <span>매장방문</span>
+                                            </label>
+                                            <label>
+                                                <input class="inflow" type="radio" name="con_path" value="지인추천">
+                                                <span></span>
+                                                <span>지인추천</span>
+                                            </label>
+                                            <label>
+                                                <input class="inflow" type="radio" name="con_path" value="SNS">
+                                                <span></span>
+                                                <span>SNS</span>
+                                            </label>
+                                            <label>
+                                                <input class="inflow" type="radio" name="con_path" value="해당사항없음">
+                                                <span></span>
+                                                <span>해당사항 없음</span>
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="line2">
+                                        개설희망지역
+                                    </th>
+                                    <td>
+                                        <div>
+                                            <input class="area" type="text" name="hope_area" placeholder="ex) 강남오거리">
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>문의내용</th>
+                                    <td>
+                                        <textarea class="content" name="contents" placeholder="문의 내용을 입력하세요."></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        이용동의
+                                    </th>
+                                    <td colspan="3">
+                                        <div class="box1">
+                                            <dl>
+                                                <dt>수집하는 개인정보의 항목</dt>
+                                                <dd>
+                                                    이름, 휴대폰 번호, 이메일 주소, 직업, 연령대, 점포 유무,
+                                                    외식업종 운영 경험, 투자금액, 유입경로, 개설희망지역,
+                                                    희망오픈일, 고객문의사항
+                                                </dd>
+                                                <dt>개인정보의 수집 및 이용목적</dt>
+                                                <dd>
+                                                    가맹점 개별 문의에 대한 상담
+                                                </dd>
+                                                <dt>개인정보의 보유 및 이용기간</dt>
+                                                <dd>
+                                                    보유 및 이용기간은 1년으로 하며, 기간 경과 후 가맹본부는 해당자료를 지체 없이 파기 합니다.
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <label class="checkbox">
+                                            <input type="checkbox">
+                                            <span>위 개인정보 수집 및 이용에 동의합니다.</span>
+                                        </label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="buttons">
+                            <button type="submit" class="button">신청하기</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/consulting.js"></script>
+    <footer class="site-footer">
+        <div class="inner">
+            <div class="logo-sns">
+                <h1 class="logo">
+                    <a href="#"><span class="material-icons"> egg </span>EGGDROP</a>
+                </h1>
+                <div class="sns">
+                    <a href="#"><img class="instgram" src="img/instagram.png" /></a>
+                    <a href="#"><img class="facebook" src="img/facebook.png" /></a>
+                    <a href="#"><img class="youtube" src="img/youtube.png" /></a>
+                </div>
+            </div>
+            <div class="menu-info">
+                <nav>
+                    <div class="box">
+                        <ul>
+                            <li>
+                                <a href="menu.html">MENU</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="store.html">STORE</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="about.html">ABOUT</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="consulting.html">가맹문의</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="info">
+                    <ul>
+                        <li>
+                            <a href="contact.html">고객문의</a>
+                        </li>
+                        <li>
+                            <a href="consulting.html">개설문의</a>
+                        </li>
+                        <li>
+                            <a href="#">개인정보취급방침</a>
+                        </li>
+                    </ul>
+                    <address>
+                        <div>
+                            <p>주식회사 골든하인드</p>
+                            <p>
+                                서울특별시 서초구 강남대로 311
+                                (드림플러스강남)
+                            </p>
+                        </div>
+                        <div>
+                            <p>사업자등록번호 : 138-87-00801</p>
+                        </div>
+                        <div>
+                            <p>전화 : 1670-4809</p>
+                        </div>
+                        <div>
+                            <p>메일 : support@goldenhind.co.kr</p>
+                        </div>
+                    </address>
+                    <p>
+                        Copyright© 주식회사 골든하인드. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
