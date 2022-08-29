@@ -32,7 +32,7 @@ body{
     color: white;
     text-decoration: none;
 }
-.material-icons {
+.logo span {
     float: left;
     font-size: 50px;
     color: #ffe4cd;
